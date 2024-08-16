@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.section{
+    width: 25%;
+    margin: 100px 550px;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: black;
+    padding:20px;
+}
+
+.col-12 h2{
+    text-align: center;
+    color: white;
+}
+
+.col-3,.col-9{
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+}
+
+#col3{
+    background-color:green;
+    color: white;
+}
+
+#res{
+    text-align: left;
+}
+
+.col-3:hover{
+    background-color: rgb(165, 201, 213);
+}
+
+.col-9:hover{
+    background-color: darkkhaki;
+}
+
+#col3:hover{
+    background-color: lightgreen;
+    color: black;
+}
